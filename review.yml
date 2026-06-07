@@ -1,0 +1,11 @@
+name: BoxxApps Open Data
+url: https://raw.githubusercontent.com/api-evangelist/opendata2-boxxapps-com/refs/heads/main/review.yml
+created: '2026-06-07'
+modified: '2026-06-07'
+reviews:
+  - date: '2026-06-07'
+    rating: 4
+    summary: Live CKAN API verified (v2.6.8), ~719 datasets.
+    endpoints:
+      - url: https://opendata2.boxxapps.com/api/3/action/status_show
+        status: 200

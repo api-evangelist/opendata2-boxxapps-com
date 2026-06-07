@@ -1,0 +1,56 @@
+aid: opendata2-boxxapps-com
+name: BoxxApps Open Data
+description: >-
+  BoxxApps Open Data is a organization open-data portal running CKAN.
+  It exposes the CKAN catalog API over approximately 719 datasets.
+kind: organization
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/opendata2-boxxapps-com/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Organization
+  - Europe
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: opendata2-boxxapps-com:catalog
+    name: BoxxApps Open Data CKAN Action API
+    description: >-
+      CKAN API for BoxxApps Open Data, ~719 datasets.
+    humanURL: https://opendata2.boxxapps.com
+    baseURL: https://opendata2.boxxapps.com/api/3/action
+    tags:
+      - CKAN
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://opendata2.boxxapps.com
+      - type: x-api-endpoint
+        url: https://opendata2.boxxapps.com/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.6.8'
+common:
+  - type: Website
+    url: https://opendata2.boxxapps.com
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/opendata2-boxxapps-com-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/opendata2-boxxapps-com-rate-limits.yml
+  - type: FinOps
+    url: finops/opendata2-boxxapps-com-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
