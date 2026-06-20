@@ -4,7 +4,7 @@ description: >-
   BoxxApps Open Data is a organization open-data portal running CKAN.
   It exposes the CKAN catalog API over approximately 719 datasets.
 kind: organization
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/opendata2-boxxapps-com/refs/heads/main/apis.yml
 tags:
   - Open Data
