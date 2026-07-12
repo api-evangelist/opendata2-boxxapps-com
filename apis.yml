@@ -39,6 +39,8 @@ apis:
       - type: x-ckan-version
         value: '2.6.8'
 common:
+  - type: DomainSecurity
+    url: security/opendata2-boxxapps-com-domain-security.yml
   - type: Website
     url: https://opendata2.boxxapps.com
   - type: Documentation
